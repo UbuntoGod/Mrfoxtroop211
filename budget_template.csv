@@ -1,0 +1,12 @@
+Date,Description,Category,Amount
+
+Total Spending,,,=SUM(D:D)
+
+Category Totals:
+Category,Total
+Housing,"=SUMIF(C:C,""Housing"",D:D)"
+Utilities,"=SUMIF(C:C,""Utilities"",D:D)"
+Groceries,"=SUMIF(C:C,""Groceries"",D:D)"
+Transportation,"=SUMIF(C:C,""Transportation"",D:D)"
+Entertainment,"=SUMIF(C:C,""Entertainment"",D:D)"
+Miscellaneous,"=SUMIF(C:C,""Miscellaneous"",D:D)"
